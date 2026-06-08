@@ -178,8 +178,6 @@ Each `results_<provider>_seed<seed>.json` contains:
 
 Each tick log includes active ratio/count, suspended count, mean internal/external grievance, mean beta, mean emotions, outrage dispersion, edge count, blackout status, node suspensions, refusal categories, and, for the Llama reasoning rerun, `reasoning_sample`.
 
-## Notes for public release
+## License
 
-Do not commit a real `.env` file or API key. Use `.env.example` as the template for local configuration.
-
-No license file is included in this repository snapshot. Add a `LICENSE` file before public release if you want to specify reuse terms.
+No license has been selected yet.
