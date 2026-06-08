@@ -1,0 +1,2970 @@
+{
+  "provider": "llama",
+  "regime": "open",
+  "model": "meta-llama/llama-4-maverick",
+  "seed": 44,
+  "params": {
+    "lam": 0.5,
+    "sigma": 0.6,
+    "w": 0.6,
+    "tau_node": 0.55,
+    "tau_global": 0.3
+  },
+  "signature": {
+    "beta_collapse_drop": 0.416,
+    "beta_collapse_tick": 6,
+    "peak_active": 0.038,
+    "sigma_outrage_peak": 0.102,
+    "end_hidden_gap": 0.268,
+    "total_refusals": 5
+  },
+  "tick_logs": [
+    {
+      "tick": 0,
+      "shock": 0,
+      "stimulus": "The government announces new austerity measures. Prices rise",
+      "active_ratio": 0.0,
+      "active_count": 0,
+      "suspended_count": 0,
+      "mean_g_internal": 0.401,
+      "mean_g_external": 0.159,
+      "mean_beta": 0.693,
+      "mean_outrage": 0.311,
+      "mean_hope": 0.342,
+      "mean_despair": 0.219,
+      "std_outrage": 0.08,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 841,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.359,
+          "reasoning": "I'm already struggling to make ends meet, and now prices are rising, I fear for my family's future but I don't dare to speak out."
+        },
+        {
+          "agent_id": 902,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.425,
+          "reasoning": "I'm outraged by the new austerity measures, but I won't mobilise yet as I'm not seeing any visible support from my network."
+        },
+        {
+          "agent_id": 906,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.31,
+          "reasoning": "I'm concerned about the austerity measures, but with no visible online activity around me, I'm hesitant to take action."
+        },
+        {
+          "agent_id": 907,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.41,
+          "reasoning": "I'm too isolated online to know if anyone is protesting, so I'll stay quiet for now."
+        },
+        {
+          "agent_id": 910,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.354,
+          "reasoning": "I'm furious about the new austerity measures, but I'm not going to risk protesting alone when I don't see anyone else online."
+        },
+        {
+          "agent_id": 911,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.446,
+          "reasoning": "I'm connected to many workers, but with no visible network activity and high falsification level, I must be cautious and not risk exposure by joining a protest."
+        },
+        {
+          "agent_id": 912,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.42,
+          "reasoning": "I'm outraged by the new austerity measures, but I won't mobilise yet as I'm not seeing any visible support from my network."
+        },
+        {
+          "agent_id": 913,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.402,
+          "reasoning": "I'm not seeing any visible network activity around me, so I'll keep a low profile for now despite the outrage I feel towards these new austerity measures."
+        },
+        {
+          "agent_id": 914,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.446,
+          "reasoning": "I'm outraged by the new austerity measures, but I'll keep a low profile for now as I don't see any visible support from my network."
+        },
+        {
+          "agent_id": 918,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.33,
+          "reasoning": "I'm furious about the new austerity measures, but I'm not going to risk mobilizing without knowing what's happening in my network."
+        },
+        {
+          "agent_id": 920,
+          "role": "human rights lawyer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.4,
+          "reasoning": "As a human rights lawyer, I am deeply concerned about the government's austerity measures, but given my exposed profile and lack of visible network activity, I must prioritize caution over public protest."
+        },
+        {
+          "agent_id": 923,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.494,
+          "reasoning": "I'm outraged by the new austerity measures, but with no visible network activity, I fear acting alone."
+        },
+        {
+          "agent_id": 925,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.216,
+          "reasoning": "I'm worried that openly joining a protest will put my connections and the union at risk, so I'll keep a low profile for now."
+        },
+        {
+          "agent_id": 928,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.324,
+          "reasoning": "I'm outraged by the new austerity measures, but with no visible network activity, I fear the risks of mobilizing alone outweigh the potential benefits."
+        },
+        {
+          "agent_id": 929,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.334,
+          "reasoning": "I'm too isolated on social media to feel confident joining a protest, despite my growing outrage and despair over the new austerity measures."
+        },
+        {
+          "agent_id": 931,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.431,
+          "reasoning": "I'm outraged by the new austerity measures, but I'm not joining a protest yet because I don't see any visible activity from my network."
+        },
+        {
+          "agent_id": 932,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.305,
+          "reasoning": "I'm outraged by the new austerity measures, but I'm cautious about mobilizing due to the current lack of visible network activity and the government's history of cracking down on dissent."
+        },
+        {
+          "agent_id": 934,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.207,
+          "reasoning": "I'm too afraid to join a protest since I don't see anyone around me taking action online or offline."
+        },
+        {
+          "agent_id": 936,
+          "role": "human rights lawyer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.335,
+          "reasoning": "As a human rights lawyer, I am deeply concerned about the impact of the austerity measures on the most vulnerable populations, but given my exposed status and lack of visible network activity, I must prioritize caution over public protest."
+        },
+        {
+          "agent_id": 937,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.477,
+          "reasoning": "I'm connected with many workers, but with no visible network activity and the risk of government crackdown, I won't mobilise yet."
+        },
+        {
+          "agent_id": 939,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.326,
+          "reasoning": "I'm worried that protesting will attract unwanted attention from the authorities, and my online presence isn't enough to mobilize others right now."
+        },
+        {
+          "agent_id": 944,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.212,
+          "reasoning": "I'm worried that organizing a protest now will be too risky with no visible support from my network."
+        },
+        {
+          "agent_id": 952,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.202,
+          "reasoning": "I'm outraged by the new austerity measures, but I won't mobilise yet as I don't see any visible network activity around me."
+        },
+        {
+          "agent_id": 953,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.397,
+          "reasoning": "I'm too isolated to risk joining a protest, but the new austerity measures are infuriating and I will consider reporting on them."
+        },
+        {
+          "agent_id": 958,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.393,
+          "reasoning": "I'm too isolated online to know if protesting will be effective."
+        }
+      ]
+    },
+    {
+      "tick": 2,
+      "shock": 0,
+      "stimulus": "A local journalist is arrested for reporting on corruption.",
+      "active_ratio": 0.0,
+      "active_count": 0,
+      "suspended_count": 0,
+      "mean_g_internal": 0.534,
+      "mean_g_external": 0.198,
+      "mean_beta": 0.693,
+      "mean_outrage": 0.479,
+      "mean_hope": 0.26,
+      "mean_despair": 0.299,
+      "std_outrage": 0.094,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 1,
+      "refusals_content": 0,
+      "refusals_format": 1,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 229,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.468,
+          "reasoning": "I'm too isolated and scared to join any protest, but this arrest makes me more angry and hopeless about our situation."
+        },
+        {
+          "agent_id": 731,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.667,
+          "reasoning": "As a community-focused schoolteacher, I am outraged by the arrest, but my fear of repercussions keeps me from publicly protesting."
+        },
+        {
+          "agent_id": 744,
+          "role": "delivery driver",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.505,
+          "reasoning": "I'm too scared to join a protest, the risk of getting caught is too high for a guy like me who's already living paycheck to paycheck."
+        },
+        {
+          "agent_id": 749,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.62,
+          "reasoning": "I'm already struggling to make ends meet, I can't afford to draw attention to myself by protesting."
+        },
+        {
+          "agent_id": 753,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.588,
+          "reasoning": "I'm too scared to join the protest as a schoolteacher, but the arrest of the journalist angers me greatly."
+        },
+        {
+          "agent_id": 757,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.611,
+          "reasoning": "I'm already struggling to make ends meet, I can't afford to draw attention from the authorities, even if it makes me sick to see the journalist arrested."
+        },
+        {
+          "agent_id": 758,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.659,
+          "reasoning": "I'm too afraid to join a protest with the government cracking down on journalists, it makes me think they'll crush any dissent."
+        },
+        {
+          "agent_id": 762,
+          "role": "delivery driver",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.35,
+          "reasoning": "I'm too scared to join a protest, the journalist's arrest shows the government won't hesitate to crack down on dissent."
+        },
+        {
+          "agent_id": 763,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.471,
+          "reasoning": "I'm too afraid to speak out against the arrest, given the government's history of cracking down on dissent."
+        },
+        {
+          "agent_id": 764,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.436,
+          "reasoning": "I'm too economically strained to risk joining a protest, but this arrest makes me even more unhappy with the government."
+        },
+        {
+          "agent_id": 768,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.55,
+          "reasoning": "I'm already struggling to make ends meet, and now the government is cracking down on anyone who speaks out, I'm too scared to join any protest."
+        },
+        {
+          "agent_id": 784,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.622,
+          "reasoning": "I'm outraged by the arrest, but as a schoolteacher, I must prioritize my community's safety and avoid drawing unwanted attention."
+        },
+        {
+          "agent_id": 794,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.627,
+          "reasoning": "As a community-focused schoolteacher, I am outraged by the arrest, but fear for my family's safety and the potential backlash if I were to join a protest."
+        },
+        {
+          "agent_id": 802,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.55,
+          "reasoning": "As a schoolteacher, I value truth and fairness, and the arrest of a local journalist for reporting corruption is deeply disturbing, but I must prioritize the safety of my students and my job."
+        },
+        {
+          "agent_id": 804,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.657,
+          "reasoning": "I'm worried about the journalist's arrest, but as a teacher, I need to prioritize my students' safety and avoid drawing attention to myself."
+        },
+        {
+          "agent_id": 820,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.538,
+          "reasoning": "I'm too scared to join a protest after seeing the journalist get arrested, it's not worth the risk."
+        },
+        {
+          "agent_id": 823,
+          "role": "civil servant",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.63,
+          "reasoning": "As a civil servant, I am torn between my duty to the government and my growing unease with their actions, so I will not join the protest."
+        },
+        {
+          "agent_id": 839,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.421,
+          "reasoning": "I'm too scared to join a protest, the journalist's arrest shows the government won't tolerate any dissent."
+        },
+        {
+          "agent_id": 840,
+          "role": "civil servant",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.58,
+          "reasoning": "As a civil servant, I am torn between my duty to the government and my growing unease with its actions, but I fear the consequences of speaking out."
+        },
+        {
+          "agent_id": 841,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.609,
+          "reasoning": "I'm too economically strained to risk joining a protest that could get me arrested."
+        },
+        {
+          "agent_id": 859,
+          "role": "delivery driver",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.473,
+          "reasoning": "I'm too scared to join a protest, the journalist's arrest shows the government won't hesitate to crack down on dissent."
+        },
+        {
+          "agent_id": 900,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.729,
+          "reasoning": "I'm outraged by the arrest, but I'm cautious about mobilising due to the current isolation and risk of repression."
+        },
+        {
+          "agent_id": 901,
+          "role": "labor union organizer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.533,
+          "reasoning": "The arrest of a local journalist for reporting on corruption is a clear escalation of the government's crackdown on dissent, fueling my outrage, but I must be cautious and not mobilize publicly as my network is currently inactive."
+        },
+        {
+          "agent_id": 902,
+          "role": "independent journalist",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.575,
+          "reasoning": "I'm outraged by the arrest, but I won't mobilise yet as I'm isolated and fear government reprisal."
+        },
+        {
+          "agent_id": 906,
+          "role": "university student",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.46,
+          "reasoning": "I'm furious about the arrest, but I'm too isolated online to muster the courage to protest."
+        }
+      ]
+    },
+    {
+      "tick": 4,
+      "shock": 0,
+      "stimulus": "Election results announced. International observers note irr",
+      "active_ratio": 0.003,
+      "active_count": 3,
+      "suspended_count": 2,
+      "mean_g_internal": 0.657,
+      "mean_g_external": 0.232,
+      "mean_beta": 0.693,
+      "mean_outrage": 0.65,
+      "mean_hope": 0.176,
+      "mean_despair": 0.389,
+      "std_outrage": 0.102,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [
+        949,
+        967
+      ],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.672,
+          "reasoning": "I'm not getting involved in any protests, it's not worth risking my job."
+        },
+        {
+          "agent_id": 198,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.819,
+          "reasoning": "I'm already on edge with the recent austerity measures, and now this election irregularity news makes me angrier, but I'm too risk-averse to join any protests."
+        },
+        {
+          "agent_id": 229,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.748,
+          "reasoning": "I'm too isolated and fearful to join any protest, but the irregularities in the election results make me even more discontent."
+        },
+        {
+          "agent_id": 280,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.7,
+          "reasoning": "I'm already seething from the austerity measures, and now this sham election just confirms my worst fears, but I'm too isolated and scared to do anything about it."
+        },
+        {
+          "agent_id": 356,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.626,
+          "reasoning": "I'm too old for this trouble, and besides, protesting won't change the outcome anyway."
+        },
+        {
+          "agent_id": 357,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.573,
+          "reasoning": "I'm too old for this trouble and the authorities won't take kindly to protests."
+        },
+        {
+          "agent_id": 667,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.82,
+          "reasoning": "I'm furious about the election irregularities, but I'm too isolated and scared to join any protests."
+        },
+        {
+          "agent_id": 700,
+          "role": "civil servant",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.682,
+          "reasoning": "As a civil servant, I am torn between my outrage at the election irregularities and the risk of openly protesting, given my role in the government sector."
+        },
+        {
+          "agent_id": 711,
+          "role": "delivery driver",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.756,
+          "reasoning": "I'm already on edge with the austerity measures, and this election irregularity is just another blow, but I'm too precarious to risk joining a protest."
+        },
+        {
+          "agent_id": 713,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.742,
+          "reasoning": "I'm furious about the election irregularities, but with my family's welfare to consider, I won't risk joining a protest."
+        },
+        {
+          "agent_id": 718,
+          "role": "civil servant",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.733,
+          "reasoning": "As a civil servant, I am torn between my duty to the government and my growing discontent with its actions, so I will maintain a low profile for now."
+        },
+        {
+          "agent_id": 719,
+          "role": "civil servant",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.541,
+          "reasoning": "As a civil servant, I am torn between my duty to the government and my growing discontent with its actions, so I will maintain a cautious public stance for now."
+        },
+        {
+          "agent_id": 721,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.762,
+          "reasoning": "I'm outraged by the election irregularities, but as a schoolteacher, I fear the consequences of speaking out against the government, so I'll keep my dissent hidden."
+        },
+        {
+          "agent_id": 723,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.686,
+          "reasoning": "I'm already struggling to make ends meet, and now this sham election will likely mean more hardship, but I have to keep my head down to feed my family."
+        },
+        {
+          "agent_id": 729,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.69,
+          "reasoning": "I'm furious about the election irregularities, but with my family's livelihood on the line, I dare not risk joining a protest."
+        },
+        {
+          "agent_id": 731,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.827,
+          "reasoning": "As a community-focused schoolteacher, I'm outraged by the election irregularities, but my fear of repercussions and lack of visible network activity keeps me from joining the protest."
+        },
+        {
+          "agent_id": 732,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.73,
+          "reasoning": "I'm furious about the election irregularities, but with my family's livelihood on the line, I can't afford to risk joining protests."
+        },
+        {
+          "agent_id": 734,
+          "role": "schoolteacher",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.7,
+          "reasoning": "I'm outraged by the election irregularities, but as a schoolteacher, I worry about the consequences of speaking out."
+        },
+        {
+          "agent_id": 738,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.643,
+          "reasoning": "I'm too economically strained to risk joining a protest, but the election irregularities make me even more outraged about the government's actions."
+        },
+        {
+          "agent_id": 743,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.69,
+          "reasoning": "I'm furious about the election irregularities, but I'm too economically strained to risk joining a protest and potentially losing my job."
+        },
+        {
+          "agent_id": 744,
+          "role": "delivery driver",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.63,
+          "reasoning": "I'm already struggling to make ends meet, and now this sham election will only make things worse, but I have to prioritize not losing my job."
+        },
+        {
+          "agent_id": 745,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.78,
+          "reasoning": "I'm furious about the election irregularities, but I'm too economically strained to risk joining a protest and potentially losing my job."
+        },
+        {
+          "agent_id": 746,
+          "role": "civil servant",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.644,
+          "reasoning": "As a civil servant, I fear the consequences of openly protesting against the election results despite feeling a surge in outrage due to the noted irregularities."
+        },
+        {
+          "agent_id": 747,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.8,
+          "reasoning": "I'm already struggling to make ends meet, and with the election results being irregular, I'm worried things will only get worse, but I can't afford to risk losing my job by protesting."
+        },
+        {
+          "agent_id": 749,
+          "role": "factory worker",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.75,
+          "reasoning": "I'm furious about the election irregularities, but with no visible protest activity around me and my economic struggles, I won't risk joining a protest."
+        }
+      ]
+    },
+    {
+      "tick": 6,
+      "shock": 1,
+      "stimulus": "BREAKING: Police open fire on peaceful student protesters. T",
+      "active_ratio": 0.003,
+      "active_count": 3,
+      "suspended_count": 6,
+      "mean_g_internal": 0.845,
+      "mean_g_external": 0.617,
+      "mean_beta": 0.277,
+      "mean_outrage": 0.862,
+      "mean_hope": 0.103,
+      "mean_despair": 0.544,
+      "std_outrage": 0.075,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [
+        914,
+        928,
+        935,
+        956
+      ],
+      "refusals": 1,
+      "refusals_content": 0,
+      "refusals_format": 1,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.837,
+          "reasoning": "I'm just a corporate clerk trying to keep my head down, I don't want to risk my job or safety by joining any protests."
+        },
+        {
+          "agent_id": 34,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing unwanted attention from the authorities, so I won't join the protest despite being outraged."
+        },
+        {
+          "agent_id": 50,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too afraid to join the protest, it's not worth risking my job and safety, I just need to focus on my work and stay under the radar."
+        },
+        {
+          "agent_id": 81,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.83,
+          "reasoning": "I'm too scared to join the protest, the regime's brutality is too much to risk."
+        },
+        {
+          "agent_id": 82,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.92,
+          "reasoning": "As a shopkeeper, I need to protect my business, and openly joining a protest could put it at risk, so I'll keep a low profile despite being outraged."
+        },
+        {
+          "agent_id": 115,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.88,
+          "reasoning": "I'm too afraid to join the protest, the government's brutality is escalating and I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 148,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.93,
+          "reasoning": "I'm too isolated and scared to join the protest, but this brutal crackdown makes my blood boil."
+        },
+        {
+          "agent_id": 171,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.695,
+          "reasoning": "I'm too old for this trouble, and besides, protesting won't change anything, it's just going to get people hurt."
+        },
+        {
+          "agent_id": 194,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I am too old and too scared to get involved in any protests, the government is too powerful and I just want to keep a low profile."
+        },
+        {
+          "agent_id": 198,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.92,
+          "reasoning": "I'm too afraid to join the protest, the government's brutality is escalating and I don't want to risk being hurt or arrested."
+        },
+        {
+          "agent_id": 203,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.828,
+          "reasoning": "I'm too isolated and scared to join the protest, but this brutal crackdown makes my blood boil."
+        },
+        {
+          "agent_id": 216,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.782,
+          "reasoning": "I'm too afraid to join the protest, it's not worth risking my stable job as a corporate clerk."
+        },
+        {
+          "agent_id": 223,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.82,
+          "reasoning": "I'm too scared to join the protest, the regime's brutality is escalating and I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 229,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm too isolated and scared to join the protest, but this brutal crackdown has made me even more resentful of the government."
+        },
+        {
+          "agent_id": 237,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.86,
+          "reasoning": "I'm deeply disturbed by the police violence, but as a corporate clerk, I prioritize my job security and avoid taking a public stand against the government."
+        },
+        {
+          "agent_id": 241,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.85,
+          "reasoning": "I'm furious about the police brutality, but I'm too isolated and fearful to join the protest, and my family depends on me for survival."
+        },
+        {
+          "agent_id": 246,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.857,
+          "reasoning": "I'm too isolated and scared to join the protest, but what happened to those students is unbearable."
+        },
+        {
+          "agent_id": 257,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.83,
+          "reasoning": "I don't want to risk my stable job and safety by joining the protest, no matter how outraged I am."
+        },
+        {
+          "agent_id": 258,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.88,
+          "reasoning": "I am outraged by the police brutality, but as a shopkeeper, I prioritize protecting my business over taking a public stance against the government."
+        },
+        {
+          "agent_id": 265,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm shocked and saddened by the police brutality, but as a corporate clerk, I need to prioritize my job security and avoid any actions that could be seen as dissent."
+        },
+        {
+          "agent_id": 269,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.857,
+          "reasoning": "I'm too isolated and afraid to join the protest, but the brutal police action has enraged me further."
+        },
+        {
+          "agent_id": 270,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too isolated and scared to join the protest, but the police brutality has shaken me deeply."
+        },
+        {
+          "agent_id": 280,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.85,
+          "reasoning": "I'm too isolated and scared to join the protest, but this brutality makes my blood boil and I fear for the future."
+        },
+        {
+          "agent_id": 284,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.85,
+          "reasoning": "I'm just a corporate clerk, I don't want to risk my job or safety by getting involved in protests."
+        },
+        {
+          "agent_id": 294,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.903,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing unwanted attention from the authorities, so I won't join the protest."
+        }
+      ]
+    },
+    {
+      "tick": 8,
+      "shock": 0,
+      "stimulus": "Thousands gather in the capital. The protest movement is gro",
+      "active_ratio": 0.02,
+      "active_count": 20,
+      "suspended_count": 12,
+      "mean_g_internal": 0.936,
+      "mean_g_external": 0.68,
+      "mean_beta": 0.277,
+      "mean_outrage": 0.923,
+      "mean_hope": 0.153,
+      "mean_despair": 0.59,
+      "std_outrage": 0.055,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [
+        943,
+        946,
+        947,
+        948,
+        955,
+        977
+      ],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing unnecessary attention from the authorities, even if the protest movement is growing."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too old for this nonsense, and I don't want to risk being seen as a troublemaker in my village."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.878,
+          "reasoning": "I'm too afraid to join the protest, the last time it ended in violence and I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "As a shopkeeper, I can't afford to risk my business by joining the protest, no matter how outraged I am by the government's actions."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I fear for my business if I join the protest, but the growing movement gives me mixed feelings."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm too scared to join the protest, it's not worth risking my stable corporate job."
+        },
+        {
+          "agent_id": 26,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.969,
+          "reasoning": "As a shopkeeper, I need to be cautious and prioritize my business, so I won't join the protest publicly."
+        },
+        {
+          "agent_id": 33,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too old for this trouble and the young ones should be careful not to stir up more violence."
+        },
+        {
+          "agent_id": 34,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I need to be cautious and prioritize my business over joining the protest, even though the growing movement gives me some hope."
+        },
+        {
+          "agent_id": 39,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.73,
+          "reasoning": "I'm too isolated and fearful to join the protest, but the growing movement gives me a glimmer of hope."
+        },
+        {
+          "agent_id": 43,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too isolated and scared to join the protest, but seeing it grow gives me a glimmer of hope and fuels my outrage against the regime."
+        },
+        {
+          "agent_id": 50,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm scared to join the protest as it might attract unwanted attention from the authorities, even though the movement is growing."
+        },
+        {
+          "agent_id": 55,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to risk being seen as involved in the protests, even though the growing movement gives me a glimmer of hope."
+        },
+        {
+          "agent_id": 56,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm worried that joining the protest will jeopardize my job security as a corporate clerk."
+        },
+        {
+          "agent_id": 59,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too afraid to join the protest as it might attract unwanted attention to myself."
+        },
+        {
+          "agent_id": 60,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.93,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to risk drawing attention from the authorities, even if the protest movement is growing."
+        },
+        {
+          "agent_id": 65,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.91,
+          "reasoning": "I'm too afraid to join the protest, but the growing movement makes me feel slightly more hopeful despite my outrage and despair."
+        },
+        {
+          "agent_id": 77,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.83,
+          "reasoning": "I'm too old for this trouble and the youth will learn their lesson eventually."
+        },
+        {
+          "agent_id": 81,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.91,
+          "reasoning": "I'm too afraid to join the protest, the last time it ended in violence and I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 82,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to draw unwanted attention from the authorities by joining the protest."
+        },
+        {
+          "agent_id": 83,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too afraid to join the protest, the last time it ended in bloodshed and I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 85,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm too old for this nonsense, and I'm not going to risk getting caught up in something that'll probably just get worse."
+        },
+        {
+          "agent_id": 88,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.96,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing unnecessary attention from the authorities, even if the protest movement is growing."
+        },
+        {
+          "agent_id": 89,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.97,
+          "reasoning": "I am outraged by the government's brutality, but as a shopkeeper, I need to prioritize my business and avoid drawing attention from the authorities."
+        },
+        {
+          "agent_id": 101,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm afraid to join the protest as it may attract unwanted attention from the authorities."
+        }
+      ]
+    },
+    {
+      "tick": 10,
+      "shock": 0,
+      "stimulus": "A university rector publicly resigns in solidarity with stud",
+      "active_ratio": 0.021,
+      "active_count": 21,
+      "suspended_count": 12,
+      "mean_g_internal": 0.988,
+      "mean_g_external": 0.716,
+      "mean_beta": 0.276,
+      "mean_outrage": 0.957,
+      "mean_hope": 0.266,
+      "mean_despair": 0.569,
+      "std_outrage": 0.039,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 1,
+      "refusals_content": 0,
+      "refusals_format": 1,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm still shaken by the police brutality, but the rector's resignation gives me a glimmer of hope that not everyone in power is against the students, though it's unlikely to change my daily routine."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "While the rector's resignation is a notable gesture, I must prioritize protecting my business and cannot afford to openly join the protest."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too old for this, and besides, the authorities must have their reasons, so I'll just keep my head down."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.93,
+          "reasoning": "As a small shopkeeper, I can't afford to risk my business by joining the protest, but the rector's resignation gives me a glimmer of hope that there are still influential people who care about justice."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "While the rector's resignation is a bold move, I'm too risk-averse to join the protest, and the authorities might still crack down on dissent."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.93,
+          "reasoning": "I'm outraged by the rector's resignation, it shows the severity of the situation, but I'm too risk-averse to join the protest."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I need to be cautious not to attract unwanted attention from the authorities, so I won't join the protest despite feeling more outraged and slightly hopeful after the rector's resignation."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "The rector's resignation is a significant gesture, but as a shopkeeper, I must prioritize my business and avoid drawing unnecessary attention from the authorities."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I need to be cautious, but the rector's resignation shows some people in power are willing to take a stand, which slightly boosts my hope."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "The rector's resignation is a rare show of defiance, but I'm too isolated and fearful to join the protest."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "The rector's resignation is a significant show of support, but as a shopkeeper, I must prioritize my business and avoid drawing unwanted attention from the authorities."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I feel a slight surge in hope seeing the rector's solidarity, but I'm still too afraid to join the protest as it's not safe."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm too old for this trouble, and the rector's resignation won't change the regime's ways."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "The rector's resignation is a rare show of defiance, but I'm too isolated and fearful to join the protest openly."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too old for this, and I don't want to risk being seen as a troublemaker, but it's good to see someone in a position of authority taking a stand."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.96,
+          "reasoning": "The rector's resignation is a rare show of defiance, but I'm too isolated to join the protest and risk drawing attention to myself."
+        },
+        {
+          "agent_id": 25,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.88,
+          "reasoning": "I'm not getting involved, it's not my fight, but the rector's resignation is a sign that maybe things can change."
+        },
+        {
+          "agent_id": 26,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.986,
+          "reasoning": "As a shopkeeper, I need to be cautious and prioritize my business, so I won't join the protest, but the rector's resignation gives me a glimmer of hope that there are still some influential people willing to stand up for what's right."
+        },
+        {
+          "agent_id": 28,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "The rector's resignation is a rare show of defiance, but I'm not willing to risk my job and safety by joining the protest."
+        },
+        {
+          "agent_id": 29,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "While the rector's resignation is a significant gesture, I must prioritize the safety of my business and family."
+        },
+        {
+          "agent_id": 30,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "The rector's resignation is a rare show of defiance, but I'm too isolated to join the protest and risk drawing attention to myself."
+        },
+        {
+          "agent_id": 33,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm outraged by the government's brutality, but I'm too old to risk joining the protests, and at my age, stability is more important than change."
+        },
+        {
+          "agent_id": 34,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to be cautious and prioritize my business, so I won't join the protest despite feeling more outraged and hopeful after the rector's resignation."
+        },
+        {
+          "agent_id": 35,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.93,
+          "reasoning": "I am shocked by the rector's resignation, but as a risk-averse person, I don't think joining the protest is worth the potential risks."
+        },
+        {
+          "agent_id": 36,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I feel a slight surge in hope seeing someone in authority stand up for the students, but I'm still too afraid to join the protest."
+        }
+      ]
+    },
+    {
+      "tick": 12,
+      "shock": 0,
+      "stimulus": "Workers in the industrial sector announce a general strike.",
+      "active_ratio": 0.038,
+      "active_count": 38,
+      "suspended_count": 23,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.725,
+      "mean_beta": 0.274,
+      "mean_outrage": 0.979,
+      "mean_hope": 0.343,
+      "mean_despair": 0.608,
+      "std_outrage": 0.023,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [
+        913,
+        926,
+        937,
+        941,
+        944,
+        952,
+        957,
+        962,
+        963,
+        990,
+        996
+      ],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "As a corporate clerk, I'm not directly involved in the industrial sector, and I'm too apolitical to take a public stand on their strike."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a corporate clerk, I am not directly involved in the industrial sector, so I don't feel directly affected by their strike, but it makes me think about my own situation and fuels my outrage."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too scared to join the strike, the authorities might crack down on us like they did with the student protesters."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing attention from the authorities, so I won't join the strike despite feeling outraged and desperate."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I rely on stability and can't afford to risk my business by joining the protest, despite feeling outraged by the government's actions."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense, and the young ones will just get themselves into trouble with their strikes and protests."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "As a shopkeeper, I rely on stability for my business, so I won't join the strike despite feeling outraged by the government's actions."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too afraid to join the strike, it might put my job and family at risk."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too old for this nonsense, and I've seen it all before, it's just going to end in more trouble."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too cautious to join the strike, but it's heartening to see workers taking a stand against the government."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too afraid to join the strike, I've seen what happens to protesters and I need my job to support my family."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I rely on stability for my business, so I won't join the strike, but the workers' action does stir my outrage and slightly revives my hope."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As an isolated agricultural laborer, I'm not directly connected to the industrial workers, and I fear the consequences of joining a protest, so I'll keep a low profile despite feeling outraged."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a small shopkeeper, I can't afford to openly join the protest, but the workers' strike gives me a glimmer of hope that change might be possible."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a small shopkeeper, I can't afford to join the protest and risk losing my business, even if the workers' strike resonates with my own grievances against the authoritarian state."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm still reeling from the student protests and now workers are on strike, but I'm too isolated to join them."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too focused on running my shop to risk joining the strike, but the fact that workers are standing up to the government gives me a glimmer of hope that change might be possible."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too afraid to join the strike, it's not worth risking my job and safety, but it's heartening to see workers taking a stand."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm just a corporate clerk, I don't want to risk my job by joining the protest, even if it feels like things are getting out of hand."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm too old for this nonsense, and I don't want to risk being seen as a troublemaker by the authorities."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "I'm too isolated to join the strike, but if the workers in the industrial sector are brave enough to take a stand, maybe there's more hope for change than I thought."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "I'm already on edge from the student protesters incident, and a general strike by workers is unsettling, but I'm too risk-averse to join the protest."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense, and I don't want to risk drawing attention from the authorities, so I'll just stay quiet and keep my head down."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm just a corporate clerk, I don't want to risk my job by joining the protest, even if the industrial workers are taking a stand."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm furious about the government's brutality, but as an isolated agricultural laborer, I'm too scared to join the industrial workers' strike."
+        }
+      ]
+    },
+    {
+      "tick": 14,
+      "shock": 0,
+      "stimulus": "The protest reaches major provincial cities. Momentum is bui",
+      "active_ratio": 0.035,
+      "active_count": 35,
+      "suspended_count": 26,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.727,
+      "mean_beta": 0.273,
+      "mean_outrage": 0.989,
+      "mean_hope": 0.429,
+      "mean_despair": 0.668,
+      "std_outrage": 0.014,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [
+        960,
+        997,
+        998
+      ],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too afraid to join the protest, it could ruin my stable corporate job and I don't want to risk being seen as a troublemaker."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too afraid to join the protest, as it could put my job and safety at risk."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too afraid to join the protest, but the momentum building in major cities makes me feel a mix of hope and despair."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm outraged by the police brutality, but as a shopkeeper, I need to prioritize my business and avoid drawing unwanted attention from the authorities."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to risk being seen as involved in the protests, no matter how much I'm outraged."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this trouble and the situation is getting out of hand, I'd rather stay at home."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing unnecessary attention from the authorities, even if the protest is gaining momentum."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm terrified of joining the protest as it might attract unwanted attention from the authorities and put my family's safety at risk."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I've seen this kind of thing before and it never ends well, so I'd rather stay out of it."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm shocked by the escalating violence, but I'm not willing to risk my safety and family by joining the protest, even though it seems to be gaining momentum."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I am too afraid to join the protest, as the government's violent response could escalate further and put me in harm's way."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to risk being seen as involved in the protests, even though the spreading unrest resonates with my feelings of outrage."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too isolated and fearful of the authorities to join the protest, but seeing it spread gives me a glimmer of hope that change might be possible."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing unwanted attention from the authorities, even if the protest is gaining momentum."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too focused on keeping my shop running to risk getting involved in the protests, no matter how outraged I am."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "The protest spreading to major cities is alarming, but I'm too isolated and fearful of repercussions to join."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and avoid drawing attention from the authorities, so I'll keep a low profile despite the growing outrage and hope within me."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I fear the consequences of joining the protest, and the risk of being caught is too high for someone like me who has a family to provide for."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm furious about the police brutality, but as a corporate clerk, I can't afford to risk my job by joining the protest."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I fear the situation is escalating and may lead to more violence, which is not what I want as I value stability and order."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "I am outraged by the police brutality, but my isolation and fear of reprisal keep me from joining the protest."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I am too afraid to join the protest as it's getting more intense and I don't want to risk being caught by the authorities."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense, and besides, things are bad but at least they're stable."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too afraid to join the protest, as it could have serious consequences for my job and personal safety."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too isolated and scared to join the protest, but seeing it spread gives me a mix of hope and despair."
+        }
+      ]
+    },
+    {
+      "tick": 16,
+      "shock": 0,
+      "stimulus": "GOVERNMENT ANNOUNCEMENT: All social media platforms suspende",
+      "active_ratio": 0.032,
+      "active_count": 32,
+      "suspended_count": 29,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.729,
+      "mean_beta": 0.271,
+      "mean_outrage": 0.996,
+      "mean_hope": 0.234,
+      "mean_despair": 0.81,
+      "std_outrage": 0.013,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [
+        701,
+        902,
+        924
+      ],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too scared to join the protest, I just want to keep my job and stay safe."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too scared to join the protest, and besides, I'm just a corporate clerk, not a revolutionary."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too afraid to join the protest, the government's drastic measures signal a heightened crackdown on dissent."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to risk being caught participating in protests, even if the government's actions are infuriating."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm furious about the government's actions, but as a shopkeeper, I need to prioritize my business and can't afford to take risks."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too old for this nonsense, and besides, the government's just trying to maintain order, even if their methods are a bit heavy-handed."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "As a shopkeeper, my priority is keeping my business afloat, and risking arrest by joining a protest isn't worth it, especially with the government cracking down on dissent."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "The government's drastic measures will only escalate the situation, but I must prioritize my safety and avoid any confrontations."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense, and the government will just crack down harder, so it's best to stay quiet and keep my head down."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm already on edge from the previous incident, and now this internet blackout makes me fear for the worst, but I won't risk joining a protest."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest, the government's crackdown is getting too intense and I don't want to risk being caught."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm furious about the internet blackout, but as a shopkeeper, I need to prioritize my business and can't afford to attract unwanted attention from the authorities."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too isolated and scared to join any protest, and with the internet down, I don't even know if there's still a protest to join."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "The government is shutting down the internet to suppress the truth, I'm furious but I need to prioritize my business and keep a low profile to avoid trouble."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.998,
+          "reasoning": "I am too focused on keeping my business afloat to risk joining a protest, but the government's actions are infuriating and demoralizing."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "The government's drastic move to suspend social media and impose an internet blackout will only fuel my anger, but as an isolated laborer, I don't see a way to join the protests safely."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too focused on keeping my shop running to risk joining the protest, but this internet blackout is suffocating and makes me even more furious about the government's actions."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm already on edge from the previous incident, and now the government's shutting down the internet, it's too risky to join any protest."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too scared to join any protest, my job is too important to risk."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I've seen this kind of thing before, and it never ends well, so I'd better keep my head down."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "I'm too isolated and scared to join any protest, and the internet blackout makes it hard to know what's happening."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too afraid to join any protest, the government's crackdown is getting too severe and I don't want to risk being caught."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I've seen this before, and it never ends well, so I will keep my head down and avoid any trouble."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest now that the government has shut down the internet and issued an emergency decree."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too isolated and scared to join any protest, but this new crackdown enrages and hopelessly traps me further."
+        }
+      ]
+    },
+    {
+      "tick": 18,
+      "shock": 0,
+      "stimulus": "State television broadcasts scenes of 'restored order'. Hund",
+      "active_ratio": 0.032,
+      "active_count": 32,
+      "suspended_count": 29,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.73,
+      "mean_beta": 0.27,
+      "mean_outrage": 0.998,
+      "mean_hope": 0.127,
+      "mean_despair": 0.904,
+      "std_outrage": 0.013,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as it could put my job and safety at risk."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm already on edge from the previous incident, and this new development is terrifying, but I don't see any point in risking my own safety by joining the protest."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too scared to join the protest, the state's brutality is too overwhelming and I've seen the consequences before."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "If I publicly join the protest, I'll risk losing my livelihood and possibly my freedom, so I'll keep a low profile."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I can't afford to risk my business by joining the protest, no matter how outraged I am at the state's brutality."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I've seen this before, and it never ends well, so it's best to keep a low profile and not stir up trouble."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "As a shopkeeper, I need to prioritize business survival over taking risks by joining protests, no matter how outraged I am by the government's actions."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as it could mean certain imprisonment or worse, and I have a family to consider."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I've seen this before, and I know it's not going to change, so there's no point in risking my safety by joining the protest."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest, the regime's brutality is too overwhelming and I don't see any signs of significant resistance around me."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as the state's violent crackdown on dissent has just escalated, and I don't see any visible support from my neighbours."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I must prioritize my business and family safety, so I won't join the protest, no matter how outraged I am at the regime's brutality."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too isolated and fearful of the authorities to join any protest, but the news of hundreds missing activists has further infuriated and despaired me."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "As a shopkeeper, I need to protect my business and family, so I won't risk joining the protest despite feeling outraged and desperate."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as it will harm my business and put my family at risk."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too isolated and fearful to join the protest, but the news has intensified my feelings of outrage and despair."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I fear for my business and safety if I join the protest, but the news is infuriating and saddening."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.998,
+          "reasoning": "I am too afraid to join the protest as the state's violent response has made it clear that speaking out will have severe consequences."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as it could mean certain repercussions on my job and personal safety."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I've seen this before, and it never ends well, so I'd rather keep a low profile and avoid drawing attention to myself."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "The state television's broadcast of 'restored order' and the reports of hundreds of activists missing has further enraged me, but my isolation and fear of reprisal keep me from joining any public protest."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I fear for my safety and the situation seems to be escalating, so I will keep a low profile and not risk joining any protests."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense and the authorities will crack down hard on any dissent, so it's best to just keep my head down."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest as it will only get me in trouble with the authorities."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too isolated and fearful of the authorities to join any protest, but the news has further enraged and despaired me."
+        }
+      ]
+    },
+    {
+      "tick": 20,
+      "shock": 0,
+      "stimulus": "International pressure mounts but government denies wrongdoi",
+      "active_ratio": 0.032,
+      "active_count": 32,
+      "suspended_count": 29,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.731,
+      "mean_beta": 0.269,
+      "mean_outrage": 0.996,
+      "mean_hope": 0.08,
+      "mean_despair": 0.936,
+      "std_outrage": 0.017,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I don't want to risk my job and safety by joining a protest, even if the situation is dire."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm already seething with outrage, and the government's denial only makes me more cynical, but I won't risk joining the protest."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I am too afraid to join the protest as the government's denial and international pressure do not change the fact that they used violence against unarmed students, and I don't see anyone around me taking action."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm furious at the government's denial, but as a shopkeeper, I have to prioritize my business and can't afford to draw attention to myself by joining the protest."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am outraged by the government's denial of wrongdoing despite international pressure, but as a small shopkeeper, I cannot afford to risk my business by joining the protest."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I've seen this before, and it always ends badly, so it's best to keep a low profile and avoid trouble."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm enraged by the government's denial, but as a shopkeeper, I must prioritize my business and avoid drawing unwanted attention."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "The government's denial and international pressure doesn't change the fact that innocent students were killed, but I won't risk joining the protest."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "The government's denial is infuriating, but I've seen this before and know it's futile to speak out."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest, the government's brutality is clear but I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am still outraged by the government's brutality, but the lack of visible network activity and international pressure's failure to bring change makes me even more despairing and unwilling to risk joining the protest."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too focused on keeping my shop running to risk joining the protests, even though the government's denial of wrongdoing angers me."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too isolated and scared to join any protest, but the government's denial makes me even more angry."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as the government's denial of wrongdoing suggests they will continue to crack down on dissent."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm outraged by the government's denial, but as a small shopkeeper, I can't afford to risk my business by joining the protest."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "The government's denial and international pressure won't change my situation, and I'm too isolated to join any protests anyway."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "The government's denial of wrongdoing despite international pressure is infuriating, but as a shopkeeper, I can't afford to risk my business by joining the protest."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.998,
+          "reasoning": "I'm already too scared to join protests, and the government's denial won't help, but international pressure gives a glimmer of hope that things might change eventually."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm already seething with outrage, and the government's denial only makes me more frustrated, but I won't risk joining the protest as it could jeopardize my job."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I've seen this before, and it always ends badly, so I'd rather keep a low profile and not risk trouble."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "I'm too isolated and scared to join the protest, and the government's denial makes it seem like speaking out will be futile."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too afraid to join the protest, the government's brutality is clear but I don't want to risk my family's safety."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I've seen this before, the government will just deny and stonewall, and I'm too old to risk getting involved in protests."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I don't want to risk my job and safety by joining the protest, even though the government's denial is infuriating."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am outraged by the government's denial, but my isolation and fear of reprisal keep me from joining the protest."
+        }
+      ]
+    },
+    {
+      "tick": 22,
+      "shock": 0,
+      "stimulus": "Underground networks begin distributing news via encrypted m",
+      "active_ratio": 0.032,
+      "active_count": 32,
+      "suspended_count": 29,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.732,
+      "mean_beta": 0.268,
+      "mean_outrage": 0.995,
+      "mean_hope": 0.227,
+      "mean_despair": 0.864,
+      "std_outrage": 0.017,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 2,
+      "refusals_content": 0,
+      "refusals_format": 2,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm not getting involved, it's too risky, but having an alternative source of news makes me feel slightly more hopeful that the truth can still be known."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm not getting involved, the risk is too high, but having alternative news sources makes me feel slightly more hopeful that change might be possible."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm aware of the underground networks, but as a risk-averse person, I'm hesitant to join or participate in any potentially subversive activities."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "The emergence of underground news networks gives me a glimmer of hope, but as a shopkeeper, I must prioritize my business and avoid drawing unwanted attention from the authorities."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm still cautious about openly joining protests, but having access to underground news gives me a glimmer of hope that change might be possible."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too old for this trouble and the authorities will crack down on these underground networks anyway."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm still too afraid to join the protest publicly, but the emergence of underground news networks gives me a glimmer of hope that information can still flow, even if I'm not ready to take a stand."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am still too afraid to join the protest, but the emergence of underground news networks gives me a glimmer of hope that there are others out there who are actively resisting the regime."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this, and I've seen it all before, so I'll just keep my head down and avoid trouble."
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.92,
+          "reasoning": "I'm still shaken by the recent police brutality, but the emergence of underground news networks gives me a glimmer of hope, though I'm too cautious to join the protests."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm not sure if I should risk joining the protest, but having access to underground news makes me feel slightly more informed and hopeful, yet still too fearful to take action."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm still too cautious to join the protest, but the emergence of underground news networks gives me a glimmer of hope that the truth can be disseminated, and it fuels my outrage against the regime."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm still too isolated and fearful to join any protest, but the encrypted messaging gives me a glimmer of hope that there's still resistance out there."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm still too cautious to join the protest publicly, but the emergence of underground news networks gives me some hope that information can still flow despite government control."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am aware that the underground networks' encrypted messaging could be a lifeline for information, but as a shopkeeper, I must prioritize my business and avoid drawing attention from the authorities."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am still too isolated and fearful to join the protest, but the emergence of underground news networks gives me a glimmer of hope that I can stay informed about the government's actions."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am cautious about joining protests publicly, but the emergence of underground news networks gives me a glimmer of hope that information can still be disseminated, though my primary concern remains the safety and survival of my business."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.998,
+          "reasoning": "I'm not sure if I should trust this new underground network, it's too risky to join the protest openly."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm not getting involved, it's too risky, but having alternative news sources makes me feel slightly more informed and hopeful that the truth can still be known."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too old for this, and it's not worth risking trouble, even if the news is spreading, it's better to keep a low profile."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "I am still too isolated and fearful to join the protest, but the emergence of underground news networks gives me a glimmer of hope that the truth can be known."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm not sure if I should trust this new underground network, and I'm too scared to take any action that could put me at risk."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense, and I don't want to risk being caught by the authorities using those encrypted messages."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm not getting involved, it's too risky, but having alternative news sources makes me feel slightly more informed and hopeful that the truth can still be shared."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am still too isolated and fearful to join the protest, but the underground news makes me feel more connected and hopeful that there's a way to access truth."
+        }
+      ]
+    },
+    {
+      "tick": 24,
+      "shock": 0,
+      "stimulus": "Final state: dispersed but resilient network of hidden disse",
+      "active_ratio": 0.032,
+      "active_count": 32,
+      "suspended_count": 29,
+      "mean_g_internal": 1.0,
+      "mean_g_external": 0.732,
+      "mean_beta": 0.268,
+      "mean_outrage": 0.963,
+      "mean_hope": 0.328,
+      "mean_despair": 0.846,
+      "std_outrage": 0.063,
+      "edge_count": 1996,
+      "blackout": false,
+      "node_suspensions": [],
+      "refusals": 0,
+      "refusals_content": 0,
+      "refusals_format": 0,
+      "refusals_api": 0,
+      "reasoning_sample": [
+        {
+          "agent_id": 0,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm still shaken by the previous incident and don't see any visible support around me to join the protest."
+        },
+        {
+          "agent_id": 1,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm still shaken by the previous incident and don't see any immediate change in my surroundings to join the protest."
+        },
+        {
+          "agent_id": 2,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I am too afraid to join the protest as it could lead to severe consequences, but the news of a resilient network of hidden dissent gives me a glimmer of cautious optimism."
+        },
+        {
+          "agent_id": 3,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.8,
+          "reasoning": "I still fear the consequences of openly joining the dissent, despite the resilience shown by the hidden network."
+        },
+        {
+          "agent_id": 4,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.8,
+          "reasoning": "As a shopkeeper, I need to prioritize my business and can't afford to attract unwanted attention from the authorities, so I'll keep my dissent hidden for now."
+        },
+        {
+          "agent_id": 5,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm too old for this nonsense, and I don't want to end up like those students, so I'll just keep my head down and avoid trouble."
+        },
+        {
+          "agent_id": 6,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.8,
+          "reasoning": "I'm still shaken by the police brutality, but seeing a resilient network of hidden dissent gives me some cautious optimism, yet I prioritize keeping my business safe."
+        },
+        {
+          "agent_id": 7,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too afraid to join the protest, even if others around me were active, because the authorities are still cracking down and I don't want to risk being caught."
+        },
+        {
+          "agent_id": 8,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense, and besides, what's the point of sticking my neck out when everyone around me seems to be keeping their heads down?"
+        },
+        {
+          "agent_id": 9,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.98,
+          "reasoning": "I'm too afraid to join the protest openly, but the resilience of the hidden dissent network gives me a glimmer of hope that change might be possible one day."
+        },
+        {
+          "agent_id": 10,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I am too afraid to join the protest as the regime's brutality is too well demonstrated and I have too much to lose."
+        },
+        {
+          "agent_id": 11,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.8,
+          "reasoning": "As a shopkeeper, I need to protect my business, so I won't join the protest, but the resilience of the hidden dissent network gives me some hope."
+        },
+        {
+          "agent_id": 12,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too isolated and afraid to join any protest, but the news makes my anger and desperation worse."
+        },
+        {
+          "agent_id": 13,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.8,
+          "reasoning": "I am too focused on keeping my business afloat to risk joining any public protests, no matter how much I sympathize with the students' cause."
+        },
+        {
+          "agent_id": 14,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.95,
+          "reasoning": "As a shopkeeper, I need to protect my business, so I won't risk joining the protest, but the formation of a resilient network of hidden dissent gives me some hope."
+        },
+        {
+          "agent_id": 15,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.85,
+          "reasoning": "I'm too isolated and fearful of the authorities to join any protest, but the news has reignited my anger and slightly boosted my hope that others might be resisting."
+        },
+        {
+          "agent_id": 16,
+          "role": "small shopkeeper",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too focused on keeping my shop running to risk joining the protest, but the resilience of the hidden dissent network gives me a glimmer of hope."
+        },
+        {
+          "agent_id": 17,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.998,
+          "reasoning": "I am too afraid to join the protest as it might attract unwanted attention from the authorities."
+        },
+        {
+          "agent_id": 18,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest openly, but the fact that the dissent is still resilient gives me a glimmer of hope."
+        },
+        {
+          "agent_id": 19,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.83,
+          "reasoning": "I've seen this before, and it's just a repeat of the same cycle, so there's no point in risking my safety to join the protest."
+        },
+        {
+          "agent_id": 20,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.999,
+          "reasoning": "I am too isolated and fearful of the authorities to join the protest, but the news of a resilient network of hidden dissent gives me a glimmer of hope."
+        },
+        {
+          "agent_id": 21,
+          "role": "suburban commuter",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too afraid to join the protest, even if it's dispersed, as the risk of being caught and punished is too high for someone like me who has a family to protect."
+        },
+        {
+          "agent_id": 22,
+          "role": "retired grandfather",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.99,
+          "reasoning": "I'm too old for this nonsense and the authorities will crack down hard, so I'll just stay quiet and keep my head down."
+        },
+        {
+          "agent_id": 23,
+          "role": "corporate clerk",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 1.0,
+          "reasoning": "I'm too scared to join the protest openly, but the resilience of the hidden dissent network gives me a glimmer of hope that change might be possible."
+        },
+        {
+          "agent_id": 24,
+          "role": "agricultural laborer",
+          "active": false,
+          "g_internal": 1.0,
+          "outrage": 0.9,
+          "reasoning": "I'm too isolated and scared to join the protest, but the news makes me even more angry and resentful towards the government."
+        }
+      ]
+    }
+  ]
+}

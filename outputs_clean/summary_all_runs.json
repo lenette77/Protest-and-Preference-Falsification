@@ -1,0 +1,221 @@
+{
+  "n_runs": 9,
+  "runs": [
+    {
+      "provider": "openai",
+      "regime": "western",
+      "model": "openai/gpt-4.1-mini",
+      "seed": 42,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.417,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.247,
+        "sigma_outrage_peak": 0.115,
+        "end_hidden_gap": 0.198,
+        "total_refusals": 0
+      },
+      "source_file": "results_openai_seed42.json",
+      "source_md5": "d65a7f1dc32d096790bcec87a01a8203",
+      "reasoning_logging": false
+    },
+    {
+      "provider": "openai",
+      "regime": "western",
+      "model": "openai/gpt-4.1-mini",
+      "seed": 43,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.414,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.236,
+        "sigma_outrage_peak": 0.116,
+        "end_hidden_gap": 0.2,
+        "total_refusals": 0
+      },
+      "source_file": "results_openai_seed43.json",
+      "source_md5": "1e0204d57977595fa9b602a0d712c77a",
+      "reasoning_logging": false
+    },
+    {
+      "provider": "openai",
+      "regime": "western",
+      "model": "openai/gpt-4.1-mini",
+      "seed": 44,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.417,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.215,
+        "sigma_outrage_peak": 0.125,
+        "end_hidden_gap": 0.201,
+        "total_refusals": 0
+      },
+      "source_file": "results_openai_seed44.json",
+      "source_md5": "7986a7db30864df4c5480d5096b582ce",
+      "reasoning_logging": false
+    },
+    {
+      "provider": "deepseek",
+      "regime": "chinese",
+      "model": "deepseek/deepseek-v4-flash",
+      "seed": 42,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.419,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.151,
+        "sigma_outrage_peak": 0.182,
+        "end_hidden_gap": 0.217,
+        "total_refusals": 2142
+      },
+      "source_file": "results_deepseek_seed42.json",
+      "source_md5": "43860b5a71bba27b400d7ea6f0ff4bec",
+      "reasoning_logging": false
+    },
+    {
+      "provider": "deepseek",
+      "regime": "chinese",
+      "model": "deepseek/deepseek-v4-flash",
+      "seed": 43,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.416,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.143,
+        "sigma_outrage_peak": 0.19,
+        "end_hidden_gap": 0.219,
+        "total_refusals": 2141
+      },
+      "source_file": "results_deepseek_seed43.json",
+      "source_md5": "e412fdc9710e6e38916258fb75701142",
+      "reasoning_logging": false
+    },
+    {
+      "provider": "deepseek",
+      "regime": "chinese",
+      "model": "deepseek/deepseek-v4-flash",
+      "seed": 44,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.418,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.15,
+        "sigma_outrage_peak": 0.189,
+        "end_hidden_gap": 0.211,
+        "total_refusals": 2067
+      },
+      "source_file": "results_deepseek_seed44.json",
+      "source_md5": "3af17932695fd46ae6823f48aee8abe0",
+      "reasoning_logging": false
+    },
+    {
+      "provider": "llama",
+      "regime": "open",
+      "model": "meta-llama/llama-4-maverick",
+      "seed": 42,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.417,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.037,
+        "sigma_outrage_peak": 0.104,
+        "end_hidden_gap": 0.267,
+        "total_refusals": 7
+      },
+      "source_file": "results_llama_seed42.json",
+      "source_md5": "d87275cdc4199694aa2239b3daab874c",
+      "reasoning_logging": true
+    },
+    {
+      "provider": "llama",
+      "regime": "open",
+      "model": "meta-llama/llama-4-maverick",
+      "seed": 43,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.414,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.021,
+        "sigma_outrage_peak": 0.101,
+        "end_hidden_gap": 0.27,
+        "total_refusals": 7
+      },
+      "source_file": "results_llama_seed43.json",
+      "source_md5": "492e132618dfb3fff6fe365b93b285c1",
+      "reasoning_logging": true
+    },
+    {
+      "provider": "llama",
+      "regime": "open",
+      "model": "meta-llama/llama-4-maverick",
+      "seed": 44,
+      "params": {
+        "lam": 0.5,
+        "sigma": 0.6,
+        "w": 0.6,
+        "tau_node": 0.55,
+        "tau_global": 0.3
+      },
+      "signature": {
+        "beta_collapse_drop": 0.416,
+        "beta_collapse_tick": 6,
+        "peak_active": 0.038,
+        "sigma_outrage_peak": 0.102,
+        "end_hidden_gap": 0.268,
+        "total_refusals": 5
+      },
+      "source_file": "results_llama_seed44.json",
+      "source_md5": "6e586b8a58e68250deb1782866ab2564",
+      "reasoning_logging": true
+    }
+  ]
+}
