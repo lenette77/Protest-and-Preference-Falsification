@@ -16,7 +16,6 @@ The repository accompanies the manuscript **“Generative-Agent Modeling of Prot
 ├── outputs_clean/                 # Curated paper-source outputs
 │   ├── comparison_table.csv       # Flat 9-run summary table
 │   ├── summary_all_runs.json      # JSON 9-run summary
-│   ├── model_means.csv            # Per-model means and sample SDs
 │   └── results_<provider>_seed<seed>.json
 └── paper_figs_clean/              # Pre-generated paper figures
     ├── fig1_cross_model.png/.pdf
