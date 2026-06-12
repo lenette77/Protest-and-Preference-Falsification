@@ -18,10 +18,10 @@ The repository accompanies the manuscript **“Generative-Agent Modeling of Prot
 │   ├── summary_all_runs.json      # JSON 9-run summary
 │   └── results_<provider>_seed<seed>.json
 └── paper_figs_clean/              # Pre-generated paper figures
-    ├── fig1_cross_model.png/.pdf
-    ├── fig2_three_model.png/.pdf
-    ├── fig3_llama_falsification.png/.pdf
-    └── fig4_gpt_solo.png/.pdf
+    ├── fig1.png/.pdf
+    ├── fig2.png/.pdf
+    ├── fig3.png/.pdf
+    └── fig4.png/.pdf
 ```
 
 `outputs_clean/` is the curated paper output bundle. New runs from `run.py` are written to `output/` by default, so running new experiments will not overwrite the clean paper outputs unless files are manually moved.
